@@ -1,0 +1,53 @@
+img#fortune {
+    border-radius: 40px;
+    padding-top: 5px;
+}
+
+h1 {
+    font-weight: 700;
+    color: #b51304;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 700;
+    color: #b51304;
+}
+
+#info {
+    background-color: #680A00;
+    color: #fff;
+}
+
+#info:hover {
+    background-color: #EF5545;
+}
+
+P {
+    font-size: 25px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+footer, header {
+    text-align: center;
+    background-color: #0d1a28;
+    padding: 10px 0 10px 0;
+}
+
+p#foot {
+    color: #fff;
+    font-size: 18px;
+}
+
+.welcome {
+    background-color: #0d1a28;
+    color: #fff;
+}
