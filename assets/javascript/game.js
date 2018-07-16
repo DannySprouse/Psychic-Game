@@ -48,6 +48,13 @@ document.onkeyup = function(event) {
 
     guessesSoFar.push(userSelection);
 
+    // As user continues to make guesses, when incorrect decrease remaining available guesses
+
+    if (userSelection !== computerSelection)
+    {
+        guessesRemaining--;
+    }
+
     // If user guesses correctly, increase wins and alert they are psychic, and reset game for next random letter
 
     if (userSelection == computerSelection) 
@@ -77,13 +84,6 @@ document.onkeyup = function(event) {
             console.log(computerSelection);
     }
 
-    // As user continues to make guesses, when incorrect decrease remaining available guesses
-
-    else if (userSelection !== computerSelection)
-    {
-        guessesRemaining--;
-    }
- 
     // Write results to the page and update HTML as user plays
 
     var html = 
