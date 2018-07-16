@@ -3,6 +3,19 @@ img#fortune {
     padding-top: 5px;
 }
 
+.welcome {
+    background-color: #0d1a28;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    background-color: #0d1a28;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    border-bottom: 4px solid #ef5545;
+}
+
 h1 {
     font-weight: 700;
     color: #b51304;
@@ -36,10 +49,15 @@ P {
     margin: 0 auto;
 }
 
-footer, header {
+footer {
     text-align: center;
     background-color: #0d1a28;
-    padding: 10px 0 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 4px solid #ef5545;
 }
 
 p#foot {
@@ -47,7 +65,22 @@ p#foot {
     font-size: 18px;
 }
 
-.welcome {
-    background-color: #0d1a28;
-    color: #fff;
+/* social icons */
+
+.social-icons {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+.fab:hover {
+    opacity: 0.4;
+    background-color: #fff;
+    color: #ef5545;
+}
+
+.fa-linkedin, .fa-github, .fa-twitter, .fa-facebook, .fa-pinterest, .fa-500px {
+    color: white;
 }

@@ -2,27 +2,42 @@
 <html lang="en-US">
 
 <head>
+
+    <!-- metadata -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="The Psychic Game Project: GA Tech Bootcamp" />
     <meta name="author" content="Danny S. Sprouse" />
-
+    
+    <!-- website title -->
     <title>The Psychic Game</title>
 
+    <!-- link to css reset -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous" />
+
+    <!-- link to bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+
+    <!-- link to css stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+    <!-- link to favicon image -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />  
+
+    <!-- link to social media buttons with fontawesome icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
+
 </head>
 
 <body>
-    <!-- Welcome Header -->
+    <!-- welcome header -->
         <header>
                 <h3>WELCOME!</h3>
         </header>
 
-    <!-- Banner Image, Game Name & Instructions Button for Alert -->
+    <!-- banner image, game name & instructions button for alert -->
     <div class="container-fluid text-center">
         <img src="assets/images/fortuneteller.jpg" id="fortune" class="img-fluid" alt="Gypsy woman gazing into her crystal ball" />
         <br /><br />
@@ -33,7 +48,7 @@
         <h2>Guess what letter I'm thinking</h2>
     </div>
 
-    <!-- Div to hold results -->
+    <!-- div to hold results -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-centered" id="game">
@@ -44,13 +59,42 @@
             </div>
         </div>
     </div>
+    <br /><br /><br /><br /><br /><br />
 
-    <!-- Footer and Copyright -->
+    <!-- footer  social icons  copyright -->
     <footer>
         <h3>THANK YOU FOR PLAYING!</h3>
+
+    <!-- font awesome social button icons -->
+        <span class="social-icons">
+            <a href="https://www.linkedin.com/in/danny-sprouse" target="_blank" class="fab fa-linkedin">
+            </a>
+        </span>
+        <span class="social-icons">
+            <a href="https://github.com/DannySprouse" target="_blank" class="fab fa-github">
+            </a>
+        </span>
+        <span class="social-icons">
+            <a href="https://twitter.com/SprouseDanny" target="_blank" class="fab fa-twitter">
+            </a>
+        </span>
+        <span class="social-icons">
+            <a href="https://www.facebook.com/dannysprouseATL" target="_blank" class="fab fa-facebook">
+            </a>
+        </span>
+        <span class="social-icons">
+            <a href="https://www.pinterest.com/dannysprouse/" target="_blank" class="fab fa-pinterest">
+            </a>
+        </span>
+        <span class="social-icons">
+            <a href="https://500px.com/tcephotography" target="_blank" class="fab fa-500px"></a>
+        </span>
+
+    <!-- copyright -->
         <p id="foot">Copyright &#169; 2018</p>
     </footer>
 
+    <!-- script for javascript -->
     <script src="assets/javascript/game.js"></script>
 
 </body>
