@@ -130,3 +130,10 @@ footer {
       font-size: 16px;
     }
   }
+
+  /* On screens that are 1281px or more, hide input box */
+@media screen and (min-width: 1281px) {
+    #letters {
+      display: none;
+    }
+  }
