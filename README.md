@@ -18,7 +18,7 @@ My Technical Approach: I first built out a basic HTML mockup with some simple CS
 
 I subsequently refactored the code and utilized media queries to increase mobile responsiveness and refactored features of the game to enable play on mobile devices such as smartphones and tablets.  
 
-The game functions as expected when played in Chrome (68), Firefox ESR (60), IE (11) and Opera (54) browsers, and on desktop (Win7), laptop (Win7), iPad Air 2 and iPhone 8S devices.  
+Testing:  The game functions as expected when played in Chrome (68), Firefox ESR (60), IE (11) and Opera (54) browsers; on desktop (Win7) and laptop (Win7); and on iPad Air 2 and iPhone 8S devices (using Safari, Chrome and Firefox browsers).  
 
 Licenses, Credits & Attributions: Purchased Fortune Teller image license from DandDDigitalDelights, May 2018.
 
