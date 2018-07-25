@@ -107,7 +107,10 @@ footer {
     color: white;
 }
 
-/* On screens that are 600px or less, activate line break */
+
+        /* MEDIA QUERIES */
+
+/* On screens that are 600px or less, activate line break, remove separator bar, adjust size of h3 and change body bg color */
 @media screen and (max-width: 600px) {
     .footBreak {
         display: block;
@@ -124,16 +127,17 @@ footer {
       }
 }
 
-/* On screens that are 1025px or less, resize buttons */
+/* On screens that are 1025px or less, resize social icon buttons */
 @media screen and (max-width: 1025px) {
     .social-icons {
       font-size: 16px;
     }
   }
 
-  /* On screens that are 1281px or more, hide input box */
+/* On screens that are 1281px or more, hide input box */
 @media screen and (min-width: 1281px) {
     #letters {
       display: none;
     }
   }
+  
