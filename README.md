@@ -4,7 +4,9 @@ PSYCHIC GAME
 
 Tools: HTML5, CSS3, Bootstrap4, Google Fonts, JavaScript
 
-Purpose:  PC gaming; web application guessing game
+Purpose:  PC gaming; a web application guessing game
+
+Responsiveness:  Game has some (limited) responsiveness as it is designed to be played using a keyboard on a desktop or laptop computer
 
 Summary: This is a very simple JavaScript game where the computer will generate a random letter from the alphabet and the user tries to guess that letter by using the keyboard to select their letter choice. The user has 10 tries to guess the letter. If the user cannot achieve that within 10 guesses, a LOSS is scored and the computer generates a new letter for the user to try guessing again. If the user does achieve the correct guess within the allotted 10 guesses, a WIN is scored and the computer again generates a new random letter so the user can play again.
 
