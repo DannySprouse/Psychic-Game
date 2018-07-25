@@ -1,3 +1,21 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 8rem;
+  min-height: 100%;
+  background-color: #6284bb;
+  color: #000;
+}
+
 img#fortune {
     border-radius: 40px;
     margin-top: 5px;
@@ -51,20 +69,23 @@ P {
 }
 
 footer {
-    text-align: center;
-    background-color: #0d1a28;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding-top: 5px;
+    position: absolute;
     border-top: 4px solid #ef5545;
-}
-
-p#foot {
-    color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #0d1a28;
+    color: white;
     font-size: 18px;
-}
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .footBreak {
+    display: none;
+  }
+
 
 /* social icons */
 
@@ -85,3 +106,24 @@ p#foot {
 .fa-linkedin, .fa-github, .fa-twitter, .fa-facebook, .fa-pinterest, .fa-500px {
     color: white;
 }
+
+/* On screens that are 600px or less, activate line break */
+@media screen and (max-width: 600px) {
+    .footBreak {
+        display: block;
+    }
+    .footBar {
+        display: none;
+    }
+    h3 {
+        font-size: 20px;
+        padding-top: 4px;
+    }
+}
+
+/* On screens that are 1025px or less, resize buttons */
+@media screen and (max-width: 1025px) {
+    .social-icons {
+      font-size: 16px;
+    }
+  }
