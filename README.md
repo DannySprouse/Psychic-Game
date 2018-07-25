@@ -2,7 +2,7 @@
 
 PSYCHIC GAME
 
-Tools: HTML5, CSS3, Bootstrap4, Google Fonts, JavaScript, Media Queries
+Tools: HTML5, CSS3, Bootstrap4, Google Fonts, JavaScript, Photoshop CS6, Media Queries
 
 Purpose:  Designed originally as a web application to be played as a PC game; later redesigned to be played on mobile devices as well
 
